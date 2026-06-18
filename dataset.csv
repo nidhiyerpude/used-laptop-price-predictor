@@ -1,0 +1,301 @@
+Brand,RAM_GB,SSD_GB,Rating,Display_Size_Inch,Age_Years,Condition,OS,Resale_Price_INR
+ASUS,4,512,4.6,13.3,4,Average,Windows 10,54217
+Lenovo,8,128,5.0,16.0,5,Good,Windows 10,49991
+ASUS,4,128,4.0,14.0,4,Poor,Windows 11,31109
+Dell,32,1024,5.0,15.6,5,Good,Linux,127588
+Apple,16,1024,4.3,16.0,0,Average,Windows 11,130727
+Dell,32,128,4.9,14.0,1,Excellent,Windows 10,111187
+Acer,8,1024,3.9,16.0,6,Poor,Windows 11,66175
+HP,32,256,4.5,14.0,5,Good,Windows 10,93946
+Dell,32,256,3.5,14.0,1,Poor,Windows 10,97915
+Apple,16,1024,3.6,16.0,4,Poor,Windows 11,109165
+Dell,16,128,4.4,13.3,3,Poor,macOS,54340
+Acer,4,128,5.0,16.0,0,Poor,macOS,46116
+Lenovo,16,128,4.6,15.6,0,Average,Windows 11,75674
+ASUS,16,128,4.4,14.0,0,Poor,Linux,70051
+Apple,32,128,4.6,16.0,5,Average,Linux,101046
+Apple,16,128,4.6,15.6,6,Good,Linux,74812
+Lenovo,4,512,4.1,14.0,3,Excellent,Linux,63201
+ASUS,4,1024,4.5,13.3,6,Average,Windows 11,67022
+Lenovo,4,1024,4.9,15.6,2,Average,Windows 10,88139
+Apple,4,128,4.8,16.0,3,Poor,macOS,60449
+Apple,8,512,4.0,15.6,3,Excellent,Linux,90145
+Lenovo,8,128,4.7,13.3,2,Average,Windows 10,52682
+Lenovo,4,256,3.8,15.6,1,Poor,macOS,45716
+HP,32,128,3.6,14.0,3,Poor,Windows 10,82772
+Dell,16,128,3.7,16.0,0,Average,Windows 11,72666
+Acer,32,128,4.5,14.0,1,Excellent,macOS,105594
+Dell,32,256,3.9,16.0,6,Average,macOS,86793
+Acer,32,256,4.5,15.6,6,Poor,macOS,75871
+HP,4,1024,4.3,16.0,4,Average,macOS,74289
+Dell,16,512,3.8,16.0,6,Poor,Windows 11,59593
+HP,32,1024,4.3,16.0,0,Average,macOS,141467
+Apple,8,512,3.8,16.0,1,Poor,Windows 11,87271
+ASUS,32,128,3.9,16.0,5,Poor,Windows 11,76939
+HP,4,512,4.6,16.0,2,Poor,macOS,61385
+Apple,32,128,4.5,15.6,0,Poor,macOS,119018
+Lenovo,32,256,4.9,13.3,4,Good,macOS,99802
+Apple,8,256,4.5,16.0,4,Excellent,macOS,75295
+Acer,32,1024,4.0,16.0,6,Average,Windows 11,118341
+HP,32,1024,4.3,14.0,6,Good,Windows 10,123327
+Lenovo,8,1024,4.4,14.0,4,Good,Windows 11,86857
+ASUS,16,1024,4.8,16.0,4,Poor,Linux,100619
+HP,32,1024,4.2,14.0,4,Good,Linux,131070
+ASUS,4,128,4.9,13.3,5,Excellent,Linux,39059
+HP,32,512,3.8,13.3,1,Average,Windows 10,107735
+Dell,16,1024,3.6,14.0,7,Average,Windows 10,79162
+Dell,8,256,4.6,13.3,0,Average,Windows 10,64307
+Acer,8,512,4.1,14.0,0,Poor,Windows 11,64090
+Apple,32,256,4.8,15.6,6,Poor,Windows 10,103084
+Dell,32,512,4.5,15.6,0,Good,Linux,125381
+Dell,8,512,4.0,16.0,4,Excellent,macOS,71026
+Acer,32,1024,4.9,15.6,3,Good,Windows 11,135036
+Lenovo,16,1024,4.6,13.3,1,Poor,Windows 10,100646
+Apple,16,128,4.1,15.6,3,Good,Linux,82341
+Apple,16,512,4.5,13.3,0,Good,Windows 10,112245
+HP,16,256,3.9,14.0,7,Excellent,macOS,57571
+Acer,16,1024,4.3,14.0,4,Average,Linux,96813
+ASUS,8,1024,3.7,14.0,0,Excellent,Windows 10,105777
+ASUS,4,256,4.2,15.6,1,Good,Windows 10,59499
+Acer,32,256,3.9,14.0,1,Average,Windows 10,108881
+Acer,32,1024,3.6,15.6,1,Excellent,macOS,141912
+Lenovo,32,1024,4.5,15.6,3,Excellent,Windows 11,141103
+ASUS,16,128,4.9,14.0,2,Poor,Windows 11,64161
+Acer,32,512,4.1,13.3,2,Good,Linux,114970
+Acer,8,256,3.5,14.0,2,Excellent,Linux,54246
+ASUS,8,128,4.0,15.6,4,Poor,macOS,38485
+ASUS,8,128,4.6,16.0,2,Excellent,Linux,61223
+ASUS,8,128,4.7,16.0,6,Good,macOS,41306
+Acer,16,128,3.9,14.0,0,Excellent,Windows 10,80056
+ASUS,32,128,4.0,15.6,2,Excellent,macOS,100526
+Apple,16,1024,4.2,14.0,6,Poor,Windows 11,101240
+Acer,16,1024,4.0,15.6,4,Poor,Windows 11,91732
+Acer,4,256,5.0,14.0,6,Good,Windows 11,40305
+Lenovo,16,128,4.0,14.0,6,Poor,Windows 11,43601
+Acer,8,512,4.1,16.0,1,Excellent,Windows 10,82313
+Lenovo,8,256,3.6,13.3,5,Average,macOS,35215
+ASUS,4,512,4.9,13.3,3,Poor,Windows 10,49657
+ASUS,16,512,4.7,14.0,6,Average,Windows 10,67133
+ASUS,8,256,4.6,16.0,4,Average,Windows 11,51206
+HP,16,128,3.9,13.3,6,Poor,Windows 11,41872
+Acer,8,256,3.5,16.0,4,Excellent,Linux,49187
+Acer,32,256,4.9,16.0,4,Poor,Linux,87504
+HP,4,256,3.9,13.3,4,Good,Windows 10,43511
+Lenovo,32,512,3.6,16.0,1,Poor,macOS,107107
+ASUS,4,1024,3.8,16.0,1,Poor,Windows 10,84508
+ASUS,8,1024,3.6,13.3,3,Poor,Linux,78645
+HP,4,1024,4.4,16.0,4,Excellent,Windows 10,91708
+Lenovo,4,256,4.9,16.0,4,Average,Windows 11,47120
+Dell,16,128,3.7,16.0,0,Good,Windows 11,76463
+Dell,32,512,3.7,13.3,1,Average,Windows 11,112436
+Lenovo,16,128,3.5,15.6,5,Poor,Windows 11,48253
+Acer,16,128,5.0,13.3,6,Excellent,Windows 11,56760
+Apple,4,512,3.9,16.0,5,Excellent,Windows 11,70742
+Dell,32,512,3.7,14.0,1,Good,Windows 10,117684
+ASUS,4,256,5.0,14.0,5,Average,Windows 11,45073
+HP,32,512,3.5,15.6,4,Excellent,Windows 10,105725
+Apple,32,1024,5.0,14.0,1,Good,Windows 10,166938
+Lenovo,16,512,4.6,13.3,5,Excellent,macOS,77690
+Dell,16,128,4.9,16.0,1,Poor,Windows 11,71464
+Dell,4,1024,3.6,13.3,1,Good,Windows 11,85475
+Lenovo,32,512,3.6,13.3,6,Average,macOS,88473
+Lenovo,8,1024,4.5,16.0,3,Poor,Windows 11,83591
+Acer,32,256,4.4,15.6,2,Excellent,Windows 11,109965
+Dell,32,256,3.8,13.3,5,Excellent,Windows 11,89457
+Dell,4,256,4.0,15.6,0,Good,Windows 11,61625
+HP,8,512,4.3,15.6,6,Poor,Windows 11,48964
+ASUS,16,512,4.1,14.0,5,Good,macOS,70714
+Apple,32,256,4.6,14.0,2,Poor,Linux,117049
+Apple,16,512,3.5,14.0,1,Good,Linux,106473
+Lenovo,16,1024,3.9,13.3,3,Good,Linux,98836
+Dell,8,1024,3.8,13.3,3,Excellent,macOS,91156
+Dell,16,128,4.2,15.6,3,Average,Windows 10,67609
+HP,32,512,4.1,13.3,5,Poor,Windows 10,94396
+Dell,16,1024,4.2,14.0,4,Excellent,Windows 11,105461
+Apple,16,256,3.9,15.6,7,Average,Windows 11,62466
+Lenovo,16,512,4.1,16.0,7,Average,Windows 10,63310
+ASUS,16,256,5.0,14.0,7,Good,Linux,57765
+Apple,4,256,4.3,16.0,1,Average,Windows 11,72032
+Apple,32,512,3.8,16.0,0,Poor,Linux,134151
+HP,8,256,3.9,13.3,5,Average,Linux,50411
+HP,8,256,4.2,13.3,6,Good,macOS,38726
+Dell,4,1024,4.7,13.3,6,Excellent,Windows 11,80009
+Apple,16,512,4.0,13.3,4,Good,macOS,99804
+ASUS,8,256,4.9,15.6,0,Good,macOS,74404
+Apple,32,1024,4.7,15.6,0,Excellent,Windows 10,172092
+ASUS,8,512,3.7,13.3,2,Average,Windows 10,57455
+Acer,8,128,4.5,16.0,6,Poor,Windows 10,31042
+Lenovo,4,256,4.3,15.6,6,Excellent,Windows 11,38068
+Dell,8,128,4.9,15.6,6,Average,Windows 10,35299
+Apple,16,512,4.6,14.0,7,Poor,Linux,78001
+Apple,16,512,4.7,14.0,0,Excellent,Windows 11,122703
+Acer,16,512,3.7,16.0,5,Good,Windows 10,75566
+Apple,8,128,3.7,16.0,4,Poor,macOS,55343
+Acer,32,128,4.2,16.0,3,Excellent,Windows 10,96741
+ASUS,32,256,3.9,13.3,3,Average,Windows 10,92354
+Dell,32,256,3.8,15.6,6,Good,Windows 10,89885
+Apple,8,128,3.9,16.0,3,Average,macOS,66097
+ASUS,32,1024,4.5,16.0,4,Poor,Linux,124230
+Dell,4,256,3.6,14.0,7,Excellent,Windows 10,31500
+Lenovo,16,128,3.7,13.3,1,Good,macOS,68867
+Acer,16,128,4.6,14.0,3,Excellent,Windows 11,71542
+Dell,4,512,4.1,13.3,1,Average,Windows 10,60510
+Dell,16,128,4.4,15.6,3,Average,Linux,60154
+Apple,32,128,4.2,14.0,4,Poor,Windows 11,102801
+Apple,8,1024,3.8,13.3,6,Excellent,macOS,93585
+HP,4,1024,4.1,16.0,6,Excellent,macOS,84300
+Acer,8,512,4.1,16.0,2,Good,macOS,70417
+Apple,4,128,3.6,14.0,7,Poor,Linux,38325
+ASUS,4,256,4.2,15.6,6,Poor,Windows 11,20721
+Acer,16,512,4.6,14.0,1,Average,Windows 10,89784
+ASUS,32,256,4.8,16.0,0,Excellent,Linux,119795
+Lenovo,32,512,4.5,13.3,7,Good,Windows 11,93206
+HP,32,512,4.6,15.6,7,Poor,Windows 10,90588
+Apple,16,1024,4.1,13.3,5,Excellent,Windows 10,120799
+Dell,16,128,3.8,15.6,7,Excellent,Linux,52111
+ASUS,4,1024,4.6,13.3,6,Excellent,macOS,79435
+Lenovo,16,512,3.9,13.3,4,Good,macOS,73457
+Apple,4,256,4.8,15.6,3,Good,Windows 10,71134
+Apple,32,512,4.8,16.0,7,Excellent,Windows 10,123212
+Lenovo,4,256,4.6,14.0,4,Excellent,Linux,51772
+Apple,32,256,4.3,13.3,1,Average,Windows 11,118659
+Lenovo,8,256,4.3,14.0,3,Excellent,Windows 10,59173
+Apple,8,1024,3.8,14.0,5,Excellent,Linux,101642
+HP,16,256,4.6,14.0,3,Excellent,Windows 11,84802
+HP,8,128,4.1,14.0,5,Poor,Windows 10,32212
+ASUS,8,512,3.8,13.3,3,Average,Windows 10,63053
+Lenovo,16,1024,4.3,14.0,6,Average,macOS,88206
+Apple,8,128,4.2,14.0,3,Average,macOS,66210
+HP,8,512,4.4,14.0,0,Good,Windows 10,79798
+Acer,4,128,4.0,13.3,0,Excellent,Linux,52265
+Lenovo,16,256,4.7,16.0,2,Good,Windows 10,84528
+Dell,32,512,4.0,15.6,2,Excellent,Windows 11,122111
+HP,16,1024,4.3,16.0,2,Poor,Linux,105210
+Acer,4,512,4.6,16.0,5,Poor,Windows 11,45341
+Lenovo,8,128,4.9,15.6,7,Good,macOS,40343
+HP,16,256,4.4,14.0,6,Good,Linux,56276
+Dell,16,512,4.7,15.6,5,Poor,Linux,72979
+Lenovo,8,512,4.7,13.3,5,Average,macOS,55276
+Dell,16,128,4.3,14.0,6,Average,macOS,49332
+HP,32,128,4.5,13.3,1,Excellent,macOS,109530
+Dell,16,512,4.8,14.0,2,Average,Windows 11,85451
+Acer,8,1024,4.9,15.6,6,Good,macOS,80887
+ASUS,16,128,4.7,13.3,6,Average,macOS,48534
+Acer,4,256,3.5,13.3,5,Poor,Windows 10,26723
+Acer,4,1024,3.5,14.0,6,Excellent,Linux,71712
+HP,4,1024,3.7,15.6,1,Excellent,Windows 11,95949
+Apple,32,512,4.9,14.0,0,Average,macOS,136742
+ASUS,16,1024,4.9,15.6,5,Excellent,Linux,100650
+Dell,4,256,3.6,14.0,2,Poor,Windows 10,42141
+Acer,4,256,5.0,13.3,0,Average,macOS,62121
+Apple,4,1024,4.8,15.6,5,Excellent,macOS,101047
+Acer,16,128,4.4,14.0,4,Good,Linux,58172
+ASUS,4,128,3.6,14.0,3,Good,Windows 11,41411
+HP,4,512,3.6,16.0,3,Average,Windows 10,57692
+Dell,8,256,4.9,16.0,4,Poor,Windows 11,46367
+Acer,4,256,4.2,16.0,5,Excellent,Linux,42551
+Dell,32,512,4.8,13.3,5,Poor,Linux,100412
+ASUS,4,512,4.8,13.3,4,Average,Windows 11,57580
+Lenovo,8,1024,3.7,15.6,4,Good,Windows 11,87967
+Lenovo,16,512,3.5,16.0,2,Excellent,Windows 10,91841
+ASUS,16,256,3.9,14.0,2,Excellent,Windows 11,77549
+HP,32,512,4.1,16.0,7,Excellent,Linux,98767
+Dell,4,1024,4.8,16.0,3,Average,Windows 10,83068
+Acer,4,256,4.9,16.0,3,Good,macOS,54740
+Apple,4,256,4.2,14.0,1,Poor,Linux,63840
+Dell,8,256,5.0,13.3,3,Poor,Linux,52661
+Acer,16,128,4.0,15.6,7,Average,Linux,40962
+Dell,16,256,3.7,14.0,4,Poor,Windows 11,59915
+Lenovo,32,1024,3.6,14.0,3,Good,Linux,130203
+Lenovo,16,128,4.9,16.0,3,Excellent,Windows 11,67319
+Dell,32,256,3.8,13.3,2,Poor,Windows 11,91059
+HP,32,1024,4.3,16.0,7,Average,macOS,114723
+Acer,4,1024,4.7,14.0,1,Poor,Linux,81034
+Lenovo,4,1024,3.9,16.0,3,Good,Linux,82095
+Apple,8,512,3.7,16.0,3,Poor,Windows 11,72716
+Apple,32,128,3.7,14.0,5,Excellent,Windows 11,101699
+Acer,4,1024,4.2,14.0,7,Good,Windows 10,70875
+Apple,32,512,4.5,13.3,3,Good,Windows 11,130707
+HP,4,1024,5.0,16.0,6,Poor,Windows 10,66366
+Apple,32,1024,4.0,16.0,7,Good,macOS,137667
+HP,4,256,3.5,16.0,1,Good,Linux,52678
+Dell,8,512,3.8,14.0,1,Average,Windows 10,70945
+Lenovo,4,512,4.8,13.3,5,Excellent,Linux,57057
+HP,8,1024,4.8,14.0,3,Good,macOS,96828
+Lenovo,32,1024,4.3,14.0,5,Good,Linux,123774
+Lenovo,16,128,3.7,14.0,2,Good,Windows 10,70456
+HP,4,512,3.8,15.6,5,Poor,Windows 11,45945
+Acer,16,128,4.5,15.6,3,Good,Windows 10,62240
+HP,16,512,3.6,15.6,2,Excellent,Windows 11,90579
+Apple,16,512,3.9,16.0,0,Good,Windows 11,115938
+ASUS,4,1024,4.6,14.0,3,Poor,macOS,78599
+Dell,4,512,4.4,16.0,1,Excellent,Windows 10,79276
+Dell,32,256,4.5,15.6,2,Good,Windows 10,106984
+Acer,32,512,4.4,16.0,4,Average,Windows 11,104144
+Apple,16,256,3.9,14.0,1,Average,Windows 11,89963
+Acer,8,128,4.2,14.0,3,Excellent,Linux,56486
+ASUS,8,512,3.7,15.6,0,Excellent,macOS,87333
+Dell,16,128,3.5,13.3,7,Poor,macOS,32481
+Lenovo,8,512,4.2,16.0,1,Excellent,Windows 10,78582
+ASUS,8,128,4.1,16.0,7,Average,macOS,28444
+ASUS,32,128,4.4,15.6,4,Poor,Windows 11,83901
+HP,4,1024,4.7,16.0,6,Average,Windows 10,70802
+Dell,8,256,3.7,13.3,3,Good,Windows 11,53470
+HP,16,512,4.2,13.3,2,Excellent,Windows 11,87713
+Dell,32,128,4.2,15.6,2,Good,Windows 10,99867
+HP,8,128,4.8,15.6,7,Average,Linux,40905
+ASUS,16,1024,3.7,16.0,7,Good,Windows 10,87261
+ASUS,16,1024,5.0,13.3,6,Poor,Windows 11,90239
+Apple,16,256,4.5,15.6,1,Average,Windows 10,95808
+Apple,8,256,4.4,16.0,6,Poor,Windows 11,60036
+Lenovo,16,1024,4.7,16.0,4,Excellent,Windows 10,111741
+Apple,32,256,5.0,14.0,6,Excellent,Windows 11,117335
+HP,4,128,3.9,15.6,3,Good,Windows 11,42182
+Apple,8,1024,4.5,14.0,1,Good,Windows 11,118287
+Lenovo,4,1024,3.9,15.6,0,Excellent,Linux,102387
+HP,32,256,4.1,13.3,2,Poor,Windows 11,88601
+HP,16,1024,3.5,15.6,2,Poor,Windows 10,96949
+Apple,8,256,4.2,15.6,4,Good,macOS,64901
+Acer,4,256,3.7,13.3,1,Poor,Windows 11,49232
+ASUS,32,512,4.1,15.6,5,Good,Windows 10,103658
+Acer,16,512,3.5,15.6,4,Poor,Linux,69782
+HP,32,512,4.1,16.0,4,Excellent,Windows 10,110539
+ASUS,32,128,3.9,15.6,4,Average,macOS,83558
+Lenovo,32,1024,3.6,14.0,1,Good,Windows 11,134704
+ASUS,8,512,4.3,15.6,6,Poor,Windows 11,48109
+Dell,4,256,4.9,16.0,3,Good,Linux,53635
+Acer,8,512,4.9,15.6,5,Good,Windows 11,65376
+Apple,32,128,4.7,15.6,1,Poor,Windows 10,117559
+HP,8,512,4.7,14.0,7,Average,macOS,49378
+ASUS,16,256,4.7,15.6,3,Good,Windows 11,70373
+HP,16,1024,4.8,15.6,4,Excellent,Windows 10,108609
+Acer,16,512,4.4,16.0,2,Good,Windows 11,90518
+Apple,4,256,3.9,15.6,4,Good,Linux,58644
+Dell,8,128,4.6,13.3,2,Average,macOS,54506
+Acer,8,1024,3.6,13.3,3,Average,Windows 11,85505
+HP,16,256,4.0,16.0,4,Excellent,macOS,71821
+Apple,32,256,4.5,16.0,4,Good,Linux,112752
+Apple,8,256,5.0,14.0,5,Excellent,Linux,74338
+Apple,32,256,4.9,13.3,4,Average,Linux,118440
+HP,16,1024,4.1,14.0,0,Average,macOS,112519
+Apple,4,512,4.1,16.0,5,Excellent,macOS,77690
+ASUS,4,128,4.5,16.0,5,Good,Windows 10,39035
+Acer,32,1024,4.7,14.0,4,Good,macOS,130886
+HP,16,256,4.0,13.3,4,Good,Linux,65140
+Lenovo,32,256,4.2,16.0,1,Average,Windows 10,99087
+Lenovo,8,512,4.4,16.0,4,Poor,Windows 10,48694
+Apple,8,128,4.1,16.0,1,Good,Windows 10,78544
+Apple,16,1024,3.8,14.0,0,Average,Windows 11,132216
+Dell,4,128,4.8,16.0,6,Good,Windows 11,37120
+Apple,32,256,4.7,16.0,2,Average,Windows 11,123950
+Dell,32,128,3.5,13.3,6,Poor,Windows 11,72493
+ASUS,32,1024,3.7,16.0,4,Average,Windows 10,123358
+Apple,32,128,3.5,14.0,3,Average,Linux,106957
+Lenovo,4,512,3.8,13.3,1,Good,Linux,66817
+HP,16,512,3.8,13.3,0,Poor,Windows 10,86602
+Apple,16,512,4.5,16.0,0,Poor,macOS,102537
+ASUS,32,1024,4.8,14.0,6,Excellent,macOS,131117
+Apple,32,128,4.0,15.6,3,Good,Windows 10,111621
+Acer,8,512,4.1,15.6,4,Good,Windows 10,58433
+Acer,8,512,3.7,15.6,4,Excellent,Windows 11,63874
+Lenovo,4,1024,4.5,13.3,3,Poor,Linux,76157
