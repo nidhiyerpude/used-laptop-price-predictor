@@ -2,8 +2,14 @@ import streamlit as st
 import pandas as pd
 from sklearn.preprocessing import LabelEncoder
 from sklearn.linear_model import LinearRegression
+from sklearn.ensemble import RandomForestRegressor
+import google.generativeai as genai
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import r2_score
+
+GEMINI_API_KEY = st.secrets["GEMINI_API_KEY"]
+genai.configure(api_key=GEMINI_API_KEY)
+gemini_model = genai.GenerativeModel("gemini-1.5-flash")
 
 df = pd.read_csv("dataset.csv")
 
@@ -21,11 +27,34 @@ y = df["Resale_Price_INR"]
 
 X_train, X_test, y_train, y_test = train_test_split(X,y, test_size=0.2, random_state=42)
 
+# Linear Regression
 model = LinearRegression()
 model.fit(X_train, y_train)
+lr_pred = model.predict(X_test)
+lr_score = r2_score(y_test, lr_pred)
 
-y_pred = model.predict(X_test)
-accuracy = r2_score(y_test, y_pred)
+# Random Forest
+rf_model = RandomForestRegressor( n_estimators=100,random_state=42)
+rf_model.fit(X_train, y_train)
+rf_pred = rf_model.predict(X_test)
+rf_score = r2_score(y_test, rf_pred)
+
+def generate_description(brand,ram,ssd,age,condition,os_name,price):
+    prompt = f"""
+    Create a professional resale advertisement.
+    Brand: {brand}
+    RAM: {ram} GB
+    SSD: {ssd} GB
+    Age: {age} years
+    Condition: {condition}
+    Operating System: {os_name}
+
+    Expected Price: ₹{price:.0f}
+
+    Keep it under 100 words.
+    """
+    response = gemini_model.generate_content(prompt)
+    return response.text
 
 st.set_page_config(
     page_title="Used Laptop Resale Price Predictor",
@@ -39,8 +68,25 @@ st.markdown(
     Predict the resale value of your laptop.
     """
 )
-st.write(f"### Model R² Score: {accuracy:.2f}")
-st.write(f"Model Accuracy: {accuracy*100:.2f}%")
+st.subheader("Model Comparison")
+
+st.write(
+    f"Linear Regression Accuracy: {lr_score*100:.2f}%"
+)
+
+st.write(
+    f"Random Forest Accuracy: {rf_score*100:.2f}%"
+)
+
+best_model_name = (
+    "Random Forest"
+    if rf_score > lr_score
+    else "Linear Regression"
+)
+
+st.success(
+    f"Best Model: {best_model_name}"
+)
 st.divider()
 
 brand = st.selectbox(
@@ -92,8 +138,42 @@ if st.button("Predict Resale Price"):
         ]],
         columns=X.columns
     )
-    prediction = model.predict(input_df)
+    lr_price = model.predict(input_df)[0]
+
+    rf_price = rf_model.predict(input_df)[0]
+
+    st.write(f"Linear Regression Prediction: ₹{lr_price:,.0f}")
+    st.write(f"Random Forest Prediction: ₹{rf_price:,.0f}")
+
+    if rf_score > lr_score:
+        final_price = rf_price
+    else:
+        final_price = lr_price
+
     st.success(
-        f"Estimated Resale Price: ₹ {prediction[0]:,.0f}"
+        f"Estimated Resale Price: ₹ {final_price:,.0f}"
     )
     st.balloons()
+    st.info(
+        f"Expected Price Range: ₹ {min(lr_price, rf_price):,.0f} - ₹ {max(lr_price, rf_price):,.0f}"
+    )
+    try:
+        description = generate_description(
+        brand,
+        ram,
+        ssd,
+        age,
+        condition,
+        os_name,
+        final_price
+        )
+
+        st.subheader("AI Generated Resale Description")
+        st.write(description)
+
+     except Exception as e:
+         st.warning(
+        "Gemini description could not be generated.")
+
+    
+    
