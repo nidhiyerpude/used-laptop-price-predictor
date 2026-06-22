@@ -68,13 +68,9 @@ st.markdown(
 )
 st.subheader("Model Comparison")
 
-st.write(
-    f"Linear Regression Accuracy: {lr_score*100:.2f}%"
-)
+st.write(f"Linear Regression Accuracy: {lr_score*100:.2f}%")
 
-st.write(
-    f"Random Forest Accuracy: {rf_score*100:.2f}%"
-)
+st.write(f"Random Forest Accuracy: {rf_score*100:.2f}%")
 
 best_model_name = (
     "Random Forest"
@@ -82,9 +78,7 @@ best_model_name = (
     else "Linear Regression"
 )
 
-st.success(
-    f"Best Model: {best_model_name}"
-)
+st.success(f"Best Model: {best_model_name}")
 st.divider()
 
 brand = st.selectbox(
@@ -104,12 +98,7 @@ display_size = st.selectbox(
     "Display Size (Inches)",
     [13.3, 14.0, 15.6, 16.0]
 )
-age = st.slider(
-    "Laptop Age (Years)",
-    0,
-    10,
-    2
-)
+age = st.slider( "Laptop Age (Years)", 0,10,2)
 condition = st.selectbox(
     "Laptop Condition",
     condition_encoder.classes_
