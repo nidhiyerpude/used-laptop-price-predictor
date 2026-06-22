@@ -157,22 +157,25 @@ if st.button("Predict Resale Price"):
     st.info(
         f"Expected Price Range: ₹ {min(lr_price, rf_price):,.0f} - ₹ {max(lr_price, rf_price):,.0f}"
     )
+
+if st.button("Generate AI Resale Description"):
+
     try:
         description = generate_description(
-        brand,
-        ram,
-        ssd,
-        age,
-        condition,
-        os_name,
-        final_price
+            brand,
+            ram,
+            ssd,
+            age,
+            condition,
+            os_name,
+            final_price
         )
-
-        st.subheader("AI Generated Resale Description")
+        st.subheader(
+            "AI Generated Resale Description"
+        )
         st.write(description)
 
     except Exception as e:
-        st.warning("Gemini description could not be generated.")
-
+        st.error(f"Gemini Error: {e}")
     
     
