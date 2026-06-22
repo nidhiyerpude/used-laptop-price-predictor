@@ -163,9 +163,9 @@ if st.button("Generate AI Description"):
     if "final_price" not in st.session_state:
         st.warning("Please predict the resale price first.")
     else:
-        try:
-
-            description = generate_description(
+        with st.spinner("Generating AI Description..."):
+            try:
+                description = generate_description(
                 st.session_state["brand"],
                 st.session_state["ram"],
                 st.session_state["ssd"],
@@ -174,11 +174,8 @@ if st.button("Generate AI Description"):
                 st.session_state["os_name"],
                 st.session_state["final_price"]
             )
-
-            st.subheader("AI Generated Resale Description")
-            st.write(description)
-
-        except Exception as e:
-            st.error(f"Gemini Error: {e}")
-    st.snow()
+                st.subheader("AI Generated Resale Description")
+                st.write(description)
+            except Exception as e:
+                st.error(f"Gemini Error: {e}")
 
