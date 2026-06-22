@@ -24,10 +24,8 @@ df["OS"] = os_encoder.fit_transform(df["OS"])
 X = df.drop("Resale_Price_INR", axis=1)
 y = df["Resale_Price_INR"]
 
-
-X_train, X_test, y_train, y_test = train_test_split(X,y, test_size=0.2, random_state=42)
-
 # Linear Regression
+X_train, X_test, y_train, y_test = train_test_split(X,y, test_size=0.2, random_state=42)
 model = LinearRegression()
 model.fit(X_train, y_train)
 lr_pred = model.predict(X_test)
@@ -139,7 +137,6 @@ if st.button("Predict Resale Price"):
         columns=X.columns
     )
     lr_price = model.predict(input_df)[0]
-
     rf_price = rf_model.predict(input_df)[0]
 
     st.write(f"Linear Regression Prediction: ₹{lr_price:,.0f}")
@@ -150,32 +147,38 @@ if st.button("Predict Resale Price"):
     else:
         final_price = lr_price
 
-    st.success(
-        f"Estimated Resale Price: ₹ {final_price:,.0f}"
-    )
+    st.session_state["final_price"] = final_price
+    st.session_state["brand"] = brand
+    st.session_state["ram"] = ram
+    st.session_state["ssd"] = ssd
+    st.session_state["age"] = age
+    st.session_state["condition"] = condition
+    st.session_state["os_name"] = os_name
+    
+    st.success(f"Estimated Resale Price: ₹ {final_price:,.0f}")
     st.balloons()
-    st.info(
-        f"Expected Price Range: ₹ {min(lr_price, rf_price):,.0f} - ₹ {max(lr_price, rf_price):,.0f}"
-    )
+    st.info(f"Expected Price Range: ₹ {min(lr_price, rf_price):,.0f} - ₹ {max(lr_price, rf_price):,.0f}")
 
-if st.button("Generate AI Resale Description"):
+if st.button("Generate AI Description"):
+    if "final_price" not in st.session_state:
+        st.warning("Please predict the resale price first.")
+    else:
+        try:
 
-    try:
-        description = generate_description(
-            brand,
-            ram,
-            ssd,
-            age,
-            condition,
-            os_name,
-            final_price
-        )
-        st.subheader(
-            "AI Generated Resale Description"
-        )
-        st.write(description)
+            description = generate_description(
+                st.session_state["brand"],
+                st.session_state["ram"],
+                st.session_state["ssd"],
+                st.session_state["age"],
+                st.session_state["condition"],
+                st.session_state["os_name"],
+                st.session_state["final_price"]
+            )
 
-    except Exception as e:
-        st.error(f"Gemini Error: {e}")
-    
-    
+            st.subheader("AI Generated Resale Description")
+            st.write(description)
+
+        except Exception as e:
+            st.error(f"Gemini Error: {e}")
+    st.snow()
+
