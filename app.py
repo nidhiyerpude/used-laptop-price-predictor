@@ -9,7 +9,7 @@ from sklearn.metrics import r2_score
 
 GEMINI_API_KEY = st.secrets["GEMINI_API_KEY"]
 genai.configure(api_key=GEMINI_API_KEY)
-gemini_model = genai.GenerativeModel("gemini-1.5-flash")
+gemini_model = genai.GenerativeModel("gemini-2.5-flash")
 
 df = pd.read_csv("dataset.csv")
 
