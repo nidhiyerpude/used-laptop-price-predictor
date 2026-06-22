@@ -1,6 +1,6 @@
-# Used Laptop Resale Price Predictor
+# Used Laptop Price Predictor with Generative AI Assistance
 
-This project predicts the resale value of used laptops using Machine Learning.
+This project predicts the resale value of used laptops using Machine Learning and also generates professional resale advertisement descriptions. 
 
 ## Technologies Used
 - Python
@@ -11,3 +11,8 @@ This project predicts the resale value of used laptops using Machine Learning.
 
 ## Algorithm
 - Linear Regression
+- Random Forest Regressor
+
+## Generative AI
+- Google Gemini API
+
