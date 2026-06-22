@@ -170,8 +170,7 @@ if st.button("Predict Resale Price"):
 
         st.subheader("AI Generated Resale Description")
         st.write(description)
-
-     except Exception as e:
+except Exception as e:
          st.warning("Gemini description could not be generated.")
 
     
