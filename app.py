@@ -165,6 +165,7 @@ if st.button("Generate AI Description"):
             )
                 st.subheader("AI Generated Resale Description")
                 st.write(description)
-            except Exception as e:
-                st.error(f"Gemini Error: {e}")
+            except Exception:
+                st.warning("AI Description Generator is temporarily unavailable due to API quota limits.")
+            
 
